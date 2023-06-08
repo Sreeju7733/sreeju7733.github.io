@@ -1,19 +1,15 @@
-            const pass = prompt("Enter the password");
-      let username;
-      switch (pass) {
-        case "achuz":
-          username = "Achuz";
-          document.write(" < div id = 'chat' > < ul id = 'messages' > < /ul> < form id = 'message-form' > < input id = 'message-input'
-              placeholder = 'Type here..'
-              type = 'text' / > < button id = 'message-btn'
-              type = 'submit' > Send < /button> < /form> < /div>");
-              break;
-              case "sree7733": username = "Sreeju"; document.write(" < div id = 'chat' > < ul id = 'messages' > < /ul> < form id = 'message-form' > < input id = 'message-input'
-                placeholder = 'Type here..'
-                type = 'text' / > < button id = 'message-btn'
-                type = 'submit' > Send < /button> < /form> < /div>");
-                break;
-              }
+const pass = prompt("Enter the password");
+let username;
+switch (pass) {
+case "achuz":
+   username = "Achuz";
+   document.write(" < div id = 'chat' > < ul id = 'messages' > < /ul> < form id = 'message-form' > < input id = 'message-input'placeholder = 'Type here..'type = 'text' / > < button id = 'message-btn'type = 'submit' > Send < /button> < /form> < /div>");
+   break;
+case "sree7733":
+   username = "Sreeju";
+   document.write(" < div id = 'chat' > < ul id = 'messages' > < /ul> < form id = 'message-form' > < input id = 'message-input'placeholder = 'Type here..'type = 'text' / > < button id = 'message-btn'type = 'submit' > Send < /button> < /form> < /div>");
+   break;
+}
 
 
 // Your web app's Firebase configuration
