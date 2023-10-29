@@ -169,7 +169,7 @@ async function getInputValue(){
   }
   else if(value === "about"){
     trueValue(value);
-    createText("<img src='profile.png' style='width: 50%; margin-left: 25%;'> <br><br> <span style='color: #37df00;'> I'm Sreeju ;) </span> <br> A web developer and graphic designer with over four years of experience. I specialize in Photoshop and Figma for captivating design, along with Python, PHP, JavaScript, HTML, CSS, and SQL for developing interactive web applications. My work seamlessly blends creative design with technical precision, resulting in user-friendly, innovative solutions. Feel free to contact.")
+    createText("<img src='assets/profile.png' style='width: 50%; margin-left: 25%;'> <br><br> <span style='color: #37df00;'> I'm Sreeju ;) </span> <br> A web developer and graphic designer with over four years of experience. I specialize in Photoshop and Figma for captivating design, along with Python, PHP, JavaScript, HTML, CSS, and SQL for developing interactive web applications. My work seamlessly blends creative design with technical precision, resulting in user-friendly, innovative solutions. Feel free to contact.")
   }
   else if(value === "social"){
     trueValue(value);
