@@ -32,7 +32,6 @@ async function open_terminal(){
   createCode("social", "All my social networks.");
   createCode("contact", "Contact me.");
   createCode("projects", "Explore My Project Universe.");
-  createCode("ip", "Take a look at your IP address ;)");
 
   await delay(500);
   new_line();
@@ -80,8 +79,8 @@ async function getInputValue(){
 	createCode("social", "All my social networks.");
 	createCode("contact", "Contact me");
 	createCode("projects", "Explore My Project Universe");
-    createCode("clear", "Clean the terminal.");
-    createCode("re", "Reload the terminal.");
+    	createCode("clear", "Clean the terminal.");
+        createCode("re", "Reload the terminal.");
     
   }
   else if(value === "sreeju" || value === "sreeju s" || value === "sreeju7733"){
@@ -94,17 +93,11 @@ async function getInputValue(){
 	  location.reload();
   }
   else if(value === "bye"){
-	  createText("Bye see you later :)");
+	  createText("Bye see you later ;)");
   }
-  else if (value === "ip") {
-	fetch('/get-client-ip')
-		.then(response => response.json())
-		.then(data => {
-			createText('Your IP Address ;): ' + data.ip);
-		})
-		.catch(error => {
-			createText('Error fetching IP address from server: ' + error);
-		});
+  else if (value === "hi") {
+	createText("Hi ;)");
+	createCode("help", "See all commands.");
   }
   else if(value === "projects" || value === "project"){
     trueValue(value);
